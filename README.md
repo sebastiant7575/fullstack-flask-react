@@ -6,6 +6,7 @@ REQUIREMENTS
 
 Install docker from https://docs.docker.com/engine/install/ubuntu/
 
+FRONTEND 
 Install node with nvm https://github.com/nvm-sh/nvm 
 -install nvm
 -run: nvm install 21.7.1 
@@ -13,7 +14,8 @@ Install node with nvm https://github.com/nvm-sh/nvm
 -run: corepack enable pnpm
 cd /frontend
 -run: corepack use pnpm@latest (for actually installing may need an init command)
-
+pnpm install
+pnpm run dev
 
 TODO
 
